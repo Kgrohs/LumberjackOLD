@@ -2,25 +2,29 @@
 Log Viewing Service
 
 CS497 Proposal
-1.
 
-	1. Create a web application/service that will display log information. Log information will be compiled from many sources: log entries in database(s), from email logs, OS error logs, TSQL transaction logs, etc. The application will have filtering functionality depending on what sources it comes from. Possibly view Database logs could be filtered by value present in a certain column, email logs could be parsed and broken into ‘columns’.. It all depends on where they come from. Maybe define a base class with a few properties: LogSourceType, Body/Message, Date, 
-	2. Coworkers
-	3. Manage Log entry data from various sources with filtering capabilities  (stretch: per user account)
-	4. Tecnologies
-		1. mvc.net - framework for web interface
-		2. log4net - dotnet library for logging to databases
-		3. Kibana - Graphs and things?
-			1. https://github.com/elastic/kibana      
-			2. http://demo.elastic.co/packetbeat/#/dashboard/Packetbeat-Dashboard
-		4. logstash - Way to aggregate data?
-			1. https://www.elastic.co/products/logstash          
-			2. https://github.com/elastic/logstash
-		5. ServiceStack - More framework stuff? Not Free though..?
-			1. https://github.com/ServiceStack/ServiceStack/wiki/Creating-your-first-project
-		6. Etc.. (More as I come up with need..?)
-	5.Stretch: make each logging entitiy ( Database logs, Email logs, etc) generic; by that I mean a user could  possibly create an account and say “Add a Database logging data source”, “Add an Email Logging data source”  and be able to view all of them and continually add more. Documentation would be required for this part.. not all databases are the same, not all email logs would be configured correctly, authentication for each portal I would get information from.. could be very stretchy?
-2)
+*
+	* Create a web application/service that will display log information. Log information will be compiled from many sources: 
+		log entries in database(s), from email logs, OS error logs, TSQL transaction logs, etc. The application will have filtering 
+		functionality depending on what sources it comes from. Possibly view Database logs could be filtered by value present in a 
+		certain column, email logs could be parsed and broken into ‘columns’.. It all depends on where they come from. 
+		Maybe define a base class with a few properties: LogSourceType, Body/Message, Date, 
+	* Coworkers
+	* Manage Log entry data from various sources with filtering capabilities  (stretch: per user account)
+	* Tecnologies
+		* mvc.net - framework for web interface
+		* log4net - dotnet library for logging to databases
+		* Kibana - Graphs and things?
+			* https://github.com/elastic/kibana      
+			* http://demo.elastic.co/packetbeat/#/dashboard/Packetbeat-Dashboard
+		* logstash - Way to aggregate data?
+			* https://www.elastic.co/products/logstash          
+			* https://github.com/elastic/logstash
+		* ServiceStack - More framework stuff? Not Free though..?
+			* https://github.com/ServiceStack/ServiceStack/wiki/Creating-your-first-project
+		* Etc.. (More as I come up with need..?)
+	* Stretch: make each logging entitiy ( Database logs, Email logs, etc) generic; by that I mean a user could  possibly create an account and say “Add a Database logging data source”, “Add an Email Logging data source”  and be able to view all of them and continually add more. Documentation would be required for this part.. not all databases are the same, not all email logs would be configured correctly, authentication for each portal I would get information from.. could be very stretchy?
+*
 ### (C) Will it be proprietary to your current employer? ###
 	At work I’ve attempted to dive through their ServiceStack .net code for several tasks that I’ve been assigned.. 
 	I’d love to get to know what it is/how to use it. I have constructed a very basic version of this log viewer that 
