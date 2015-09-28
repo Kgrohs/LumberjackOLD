@@ -12,7 +12,7 @@ Generate some data with log4net
 User should bit able to hit the site and see top 50 logs at this point.
 Think about/Draft how the UI should look
 
-October 22nd - Filter and Sort (Database Logs - Multiple sources/tables)
+October 22nd - Filter and Sort (Database Logs - Multiple sources/tables) 
 (Story)Logs displayed should grab logs from multiple tables
 Table on different servers. 
 Add information as to where each log is coming from( instance/tablename?) and merge data on time stamp
