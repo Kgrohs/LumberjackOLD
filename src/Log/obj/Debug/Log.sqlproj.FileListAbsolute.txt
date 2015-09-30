@@ -1,0 +1,9 @@
+C:\Users\Konrad\Development\Lumberjack\src\Log\bin\Debug\Log.dacpac
+C:\Users\Konrad\Development\Lumberjack\src\Log\bin\Debug\Log.dll
+C:\Users\Konrad\Development\Lumberjack\src\Log\bin\Debug\Log.pdb
+C:\Users\Konrad\Development\Lumberjack\src\Log\obj\Debug\Log.dll
+C:\Users\Konrad\Development\Lumberjack\src\Log\obj\Debug\Log.pdb
+C:\Users\Konrad\Development\Lumberjack\src\Log\obj\Debug\Model.xml
+C:\Users\Konrad\Development\Lumberjack\src\Log\obj\Debug\refactor.xml
+C:\Users\Konrad\Development\Lumberjack\src\Log\obj\Debug\postdeploy.sql
+C:\Users\Konrad\Development\Lumberjack\src\Log\obj\Debug\predeploy.sql
