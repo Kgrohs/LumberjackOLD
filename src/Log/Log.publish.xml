@@ -4,7 +4,7 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>local-webdev</TargetDatabaseName>
     <DeployScriptFileName>CreateLogTable.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=(localdb)\Projects;Integrated Security=True;Pooling=False</TargetConnectionString>
+    <TargetConnectionString>Data Source=Konrad-PC\SQLEXPRESS;Integrated Security=True;Pooling=False</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
 </Project>
